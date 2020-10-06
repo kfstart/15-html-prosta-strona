@@ -6,81 +6,57 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- nav>ul>a{About us}+br*2+a{Skills}+br*2+a{Portfolio}+br*2+a{Contact}+br*2 -->
     <nav>
         <ul>
-            <a href="#about-us">About us</a>
-            <br>
-            <br>
-            <a href="#skills">Skills</a>
-            <br>
-            <br>
-            <a href="#portfolio">Portfolio</a>
-            <br>
-            <br>
-            <a href="#contact">Contact</a>
-            <br>
-            <br>
+            <li><a href="#about-us">About us</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <!-- section#about-us>h1{Nagłówek sekcji About us}+p{Tekst odnoszący się do sekcji About us, w dalszej części Lorem Ipsum} -->
+
+
+
+    <!-- section#about-us>h1{Nagłówek sekcji About us}+p{Tekst odnoszący się do sekcji About us, w dalszej części Lorem ipsum} -->
     <section id="about-us">
         <h1>Nagłówek sekcji About us</h1>
-        <p>Tekst odnoszący się do sekcji About us, w dalszej części Lorem Ipsum</p>
+        <p>Tekst odnoszący się do sekcji About us, w dalszej części Lorem ipsum</p>
     </section>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <!-- section#skills>h1{Nagłówek sekcji Skills}+div.skill*4>h3{Określenie umiejętności $}+p{Obszerny opis umiejętności $}+br -->
+
+
+
+    <!-- section#skills>h2{Nagłówek sekcji Skills}+div.skill*4>h3{Określenie umiejętności $}+p{Szczegółowy opis umiejętności $} -->
     <section id="skills">
-        <h1>Nagłówek sekcji Skills</h1>
+        <h2>Nagłówek sekcji Skills</h2>
         <div class="skill">
             <h3>Określenie umiejętności 1</h3>
-            <p>Obszerny opis umiejętności 1</p>
-            <br>
+            <p>Szczegółowy opis umiejętności 1</p>
         </div>
         <div class="skill">
             <h3>Określenie umiejętności 2</h3>
-            <p>Obszerny opis umiejętności 2</p>
-            <br>
+            <p>Szczegółowy opis umiejętności 2</p>
         </div>
         <div class="skill">
             <h3>Określenie umiejętności 3</h3>
-            <p>Obszerny opis umiejętności 3</p>
-            <br>
+            <p>Szczegółowy opis umiejętności 3</p>
         </div>
         <div class="skill">
             <h3>Określenie umiejętności 4</h3>
-            <p>Obszerny opis umiejętności 4</p>
-            <br>
+            <p>Szczegółowy opis umiejętności 4</p>
         </div>
     </section>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <!-- section#portfolio>h1{Nagłówek sekcji Portfolio}+br+br>div.portfolio-item*3>img[src="grafika$.jpg" alt="grafika$" width="300" height="300"] -->
+
+
+
     <section id="portfolio">
-        <h1>Nagłówek sekcji Portfolio</h1>
-        <br>
-        <br>
+        <h2>Nagłówek sekcji Portfolio</h2>
             <div class="portfolio-item"><img src="grafika1.jpg" alt="grafika1" width="300" height="300"></div>
             <div class="portfolio-item"><img src="grafika2.jpg" alt="grafika2" width="500" height="300"></div>
             <div class="portfolio-item"><img src="grafika3.jpg" alt="grafika3" width="700" height="300"></div>
     </section>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    
+    
+    
     <section id="contact">
         <h3>
             Krystian Fik
@@ -95,28 +71,25 @@
             mail: krystian.fik@abc.pl
             <br>
         </address>
-
-            <form action="/page.php">
-                </br>
-                <label for="fname">Imię</label>
-                </br>
-                <input type="text" name="fname" required />
-                </br>
-                </br>
-                <label for="subject">Temat</label>
-                </br>
-                <input type="text" name="subject" required />
-                </br>
-                </br>
-                <label for="message">Wiadomość</label>
-                </br>
-                <input type="text" name="message" required />
-                </br>
-                </br>
-                <input type="submit" value="Wyślij">
-                </br>
-            </form>
+    
+    
+    
+        <form action="/page.php">
+            </br>
+            <label for="fname">Imię</label>
+            </br>
+            <input type="text" name="fname" required />
+            </br>
+            <label for="subject">Temat</label>
+            </br>
+            <input type="text" name="subject" required />
+            </br>
+            <label for="message">Wiadomość</label>
+            </br>
+            <input type="text" name="message" required />
+            </br>
+            <input type="submit" value="Wyślij">
+        </form>
     </section>
-
 </body>
 </html>
